@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700;800&family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --color-bg-base: #020306;
+  --color-bg-elevated: #0a0e16;
+  --color-accent-cyan: #00e5ff;
+  --color-accent-blue: #4da3ff;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #e8f0ff;
+  --color-text-muted: rgba(200, 220, 255, 0.7);
+  
+  --font-sans: 'Nunito', 'Inter', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-bg-base);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Global ultra-subtle starry noise gradient */
+  background: 
+    radial-gradient(ellipse at top right, rgba(0, 229, 255, 0.05) 0%, transparent 40%),
+    radial-gradient(ellipse at bottom left, rgba(77, 163, 255, 0.05) 0%, transparent 60%),
+    var(--color-bg-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  letter-spacing: 0.01em;
+  overflow-x: hidden;
+}
+
+/* Custom Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(77, 163, 255, 0.2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.5);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+.font-sans {
+  font-family: var(--font-sans);
+}
