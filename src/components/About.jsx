@@ -142,7 +142,7 @@ function About() {
           <div className="abt__stats">
             {[
               'Full-Stack Developer',
-              'Hackathon Enthusiast',
+              'Software Engineer',
               'Based in Nepal 🇳🇵',
               'Open to Collaborate',
             ].map((label) => (
