@@ -71,10 +71,10 @@ function Footer() {
       `}</style>
 
       <footer className="ft">
-        <p className="ft__copy">© {new Date().getFullYear()} Samar Maharjan</p>
+        <p className="ft__copy">© {new Date().getFullYear()}Samar Maharjan</p>
       </footer>
 
-      {/* Floating scroll-to-top button */}
+      
       <button
         className={`ft__up${visible ? ' show' : ''}`}
         onClick={scrollToTop}

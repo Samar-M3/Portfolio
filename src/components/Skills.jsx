@@ -379,7 +379,7 @@ function Skills() {
         <div className="sk__inner">
           <div className="sk__header">
             <h2 className="sk__title"><span>Skills</span></h2>
-            <p className="sk__subtitle">The Tangible Toolkit</p>
+            <p className="sk__subtitle">The Tangible Toolkit!!!!</p>
           </div>
 
           <div className="sk__canvas-wrap">
