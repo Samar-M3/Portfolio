@@ -233,7 +233,7 @@ function Contact() {
       <section id="contact" className="cnt">
         <div className="cnt__inner">
           <div className="cnt__text">
-            <p className="cnt__eyebrow">Get In Touch</p>
+            <p className="cnt__eyebrow">Get in Touch</p>
             <h2 className="cnt__title">Let's Build Something Great.</h2>
             <p className="cnt__subtitle">Whether you have an idea in mind, a project requiring development, or just want to say hi, my inbox is always open.</p>
             
